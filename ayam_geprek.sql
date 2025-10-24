@@ -169,7 +169,7 @@ CREATE USER 'bob'@'localhost' IDENTIFIED BY 'halo1234';
 
 -- - Atur hak akses dengan GRANT dan REVOKE.
 -- GRANT
-GRANT SELECT, INSERT, UPDATE ON ayam_geprek.* TO 'bob'@'localhost';
+GRANT SELECT, INSERT, UPDATE, DELETE ON ayam_geprek.* TO 'bob'@'localhost';
 FLUSH PRIVILEGES;
 
 -- REVOKE
